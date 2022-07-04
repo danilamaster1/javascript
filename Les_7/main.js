@@ -144,7 +144,6 @@ const collapse = {
         <button class="button__collapse2">Next</button>
         `;
         nextBut.insertAdjacentElement('beforeend', collapseNext);
-
         const but2 = document.querySelector('.button__collapse2');
         but2.addEventListener('click', () => {
             collapseNext.classList.remove('structure__block')
@@ -170,3 +169,4 @@ const collapse = {
 window.addEventListener('load', () => {
     collapse.init();
 });
+
